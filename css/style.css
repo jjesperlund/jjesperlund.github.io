@@ -11,11 +11,6 @@
 *
 * ======================================================= */
 
-@keyframes example {
-  from {width:100px; height:80px}
-  to {width:120px; height:100px}
-}
-
 body {
   font-family: "Open Sans", Arial, serif;
   font-weight: 400;
@@ -24,6 +19,7 @@ body {
   color: #4d4d4d;
   background: #fff;
 }
+
 
 .divider1 {
 	height: 6px;
@@ -35,10 +31,12 @@ body {
   width:100px;
   height:80px;
   margin-top:26%;
+  transition: 0.3s ease;
 }
 #arrow-down:hover, #arrow-down:active{
-  animation-name: example;
-  animation-duration: 1s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   width:120px; 
   height:100px
 }
@@ -255,13 +253,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: skyblue;
+  background: white;
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: black;
 }
 #fh5co-features .services-padding {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
@@ -319,7 +317,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-pricing,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 6em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -490,7 +488,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .timeline .timeline-heading {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 .timeline .timeline-heading > div h3 {
