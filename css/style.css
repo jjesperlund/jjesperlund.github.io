@@ -28,9 +28,9 @@ body {
 }
 
 #arrow-down {
-  width:100px;
-  height:80px;
-  margin-top:26%;
+  width:70px;
+  height:50px;
+  margin-top:10%;
   transition: 0.3s ease;
 }
 #arrow-down:hover, #arrow-down:active{
@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   height: 600px;
   width: 100%;
+
 }
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
@@ -127,9 +128,11 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url('../images/bac2.jpg');
+  background: url('../images/blurr1.jpg');
   background-size: cover;
 }
+
+
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
   width: 100%;
@@ -138,7 +141,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
   /*display: table-cell;*/
-  padding-top: 30%;
+  padding-top: 17%;
   vertical-align: middle;
   height: 600px;
 }
@@ -229,8 +232,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
