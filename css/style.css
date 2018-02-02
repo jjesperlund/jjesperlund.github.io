@@ -30,7 +30,7 @@ body {
 #arrow-down {
   width:70px;
   height:50px;
-  margin-top:6%;
+  margin-top:10%;
   transition: 0.3s ease;
 }
 #arrow-down:hover, #arrow-down:active{
