@@ -30,7 +30,7 @@ body {
 #arrow-down {
   width:70px;
   height:50px;
-  margin-top:4%;
+  margin-top:0%;
   transition: 0.3s ease;
 }
 #arrow-down:hover, #arrow-down:active{
@@ -232,8 +232,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 220px;
-  width: 220px;
+  height: 200px;
+  width: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
