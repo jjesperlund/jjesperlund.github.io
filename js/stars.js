@@ -4,7 +4,7 @@ var canvas,
 	context,
 	particles,
 	particleColor = "rgb(220, 220, 220, 0.8)",
-	particleDensity = 140,
+	particleDensity = 200,
 	motionBlur = true, //Motion blur effect on or off
 	particleSize = 0.6,
 	collisionDetection = true;//collision effect on or off, this may degrade performance after set to true
