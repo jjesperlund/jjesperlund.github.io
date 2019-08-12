@@ -1,4 +1,4 @@
 ## Personal Portfolio Website
 
-[jjesperlund.github.io](https://www.jjesperlund.github.io)
+[jjesperlund.github.io](https://jjesperlund.github.io)
 
